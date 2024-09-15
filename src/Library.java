@@ -27,6 +27,7 @@ public class Library {
 
         if(bookToLend != null && memberToLendBook != null) {
             memberToLendBook.borrowBook(bookToLend);
+            System.out.println("Book is successfully lent");
         } else {
             System.out.println("Operation failed. Please try again.");
         }
